@@ -353,7 +353,11 @@ Oocyte morphology assessment is crucial for:
   organization={Springer}
 }
 
+The inspiration and principals with open data was from https://github.com/gletort/Oocytor
+
 An interpretable and versatile machine learning approach for oocyte phenotypingGaelle Letort, Adrien Eichmuller, Christelle Da Silva, Elvira Nikalayevich, Flora Crozet, Jeremy Salle, Nicolas Minc, Elsa Labrune, Jean-Philippe Wolf, Marie-Emilie Terret, Marie-Helene VerlhacJ Cell Sci jcs.260281. doi:10.1242/jcs.260281
+
+Dataset of oocytes (mouse, human and sea urchin) with the corresponding segmentation of the cortex are available on [zenodo.](https://zenodo.org/records/6502830#.Yp3bJiY68nQ)
 
 ### Development Setup
 
