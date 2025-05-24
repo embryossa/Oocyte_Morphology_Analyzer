@@ -124,25 +124,103 @@ class Config:
 
 ### Sample Output
 
-```
-OOCYTE MORPHOLOGY ANALYSIS RESULTS
-=====================================
-Image: oocyte_sample.png
-Predicted Class: NORMAL
-Abnormality Probability: 0.234
-Confidence: 0.766
+---
 
-MORPHOMETRIC CHARACTERISTICS:
-Geometric Parameters:
-  Area: 15420.50 px²
-  Perimeter: 445.67 px
-  Major Axis: 152.34 px
-  Minor Axis: 128.91 px
-  Aspect Ratio: 1.182
-  Circularity: 0.976
+### ============================================================
 
-...
-```
+### OOCYTE MORPHOLOGY ANALYSIS RESULTS
+
+### ============================================================
+
+**Image**: `ovo_47_t151.png`
+**Predicted Class**: **ABNORMAL**
+**Probability of Abnormality**: **0.877**
+**Confidence**: **0.877**
+
+#### MORPHOMETRIC CHARACTERISTICS:
+
+---
+
+**Geometric Parameters**
+
+* Area: 38,268.50 px²
+* Perimeter: 783.35 px
+* Major Axis Length: 223.85 px
+* Minor Axis Length: 219.23 px
+* Aspect Ratio: 1.021
+* Circularity: 0.784
+
+**Curvature Parameters**
+
+* Mean Curvature: 0.1981
+* Curvature Standard Deviation: 0.2780
+* Bending Energy: 0.1165
+
+**Texture Features (GLCM)**
+
+* Contrast: 7.5118
+* Homogeneity: 0.8293
+
+**Spatial Autocorrelation**
+
+* Moran's I (K=5): 0.7447
+* Moran's I (K=20): 0.4558
+
+**Shape Analysis (EFA)**
+
+* Cumulative Distance: 1.0000
+* Entropy: 0.0105
+* Dominant Mode: 0
+
+---
+
+### ============================================================
+
+### OOCYTE MORPHOLOGY ANALYSIS RESULTS
+
+### ============================================================
+
+**Image**: `eovo_453_t1.png`
+**Predicted Class**: **NORMAL**
+**Probability of Abnormality**: **0.011**
+**Confidence**: **0.989**
+
+#### MORPHOMETRIC CHARACTERISTICS:
+
+---
+
+**Geometric Parameters**
+
+* Area: 102,625.00 px²
+* Perimeter: 1,355.93 px
+* Major Axis Length: 363.77 px
+* Minor Axis Length: 358.97 px
+* Aspect Ratio: 1.013
+* Circularity: 0.701
+
+**Curvature Parameters**
+
+* Mean Curvature: 0.2587
+* Curvature Standard Deviation: 0.6185
+* Bending Energy: 0.4494
+
+**Texture Features (GLCM)**
+
+* Contrast: 35.9502
+* Homogeneity: 0.9422
+
+**Spatial Autocorrelation**
+
+* Moran's I (K=5): 0.6908
+* Moran's I (K=20): 0.4511
+
+**Shape Analysis (EFA)**
+
+* Cumulative Distance: 1.0000
+* Entropy: 0.0093
+* Dominant Mode: 0
+
+---
 
 ## Model Architecture
 
