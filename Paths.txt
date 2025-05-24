@@ -1,0 +1,13 @@
+"ivformer_ckpt": "C:/Users/User/PycharmProjects/pythonProject/Imaje recognition/Imaje recognition/Blastocyst/IVFormer.ckpt",
+    "clinical_data": "C:/Users/User/Desktop/IVF/AI/Blastocyst_Dataset/Clincial_annotations.xlsx",
+    "images_dir": "C:/Users/User/Desktop/IVF/AI/Blastocyst_Dataset/Images",
+    "save_dir": "C:/Users/User/PycharmProjects/pythonProject/Imaje recognition/Imaje recognition/Blastocyst/models",
+    "results_dir": "C:/Users/User/PycharmProjects/pythonProject/Imaje recognition/Imaje recognition/Blastocyst/results"
+
+
+
+if __name__ == "__main__":
+    autoencoder, classifier, metrics = train_pipeline(
+        images_path="C:/Users/User/Desktop/IVF/AI/Blastocyst_Dataset/Images",
+        clinical_data_path="C:/Users/User/Desktop/IVF/AI/Blastocyst_Dataset/Clincial_annotations.xlsx"
+    )
