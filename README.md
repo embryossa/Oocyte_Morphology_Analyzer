@@ -167,10 +167,18 @@ Geometric Parameters:
 - **Pixel Accuracy**: 0.97±0.02
 
 ### Classification Metrics
-- **Accuracy**: 0.81±0.02
-- **Precision**: 0.78±0.03
-- **Recall**: 0.73±0.02
-- **F1-Score**: 0.80±0.02
+Accuracy: 0.7917
+              precision    recall  f1-score   support
+
+           0       0.73      0.80      0.76        10
+           1       0.85      0.79      0.81        14
+
+    accuracy                           0.79        24
+   macro avg       0.79      0.79      0.79        24
+weighted avg       0.80      0.79      0.79        24
+
+*ROC-AUC = 0.85*
+*PRC = 0.90*
 
 ## Advanced Features
 
